@@ -1,0 +1,30 @@
+{
+  "artifact": "garment-fidelity-corpus-slice",
+  "created": "2026-10-02",
+  "files": [
+    {
+      "path": "shards/gf_2210_v5_thr0.61.ranked.jsonl",
+      "rows": 60,
+      "schema": [
+        "item_key",
+        "image_sha1",
+        "garment_class",
+        "fidelity_score"
+      ],
+      "sha256": "5f7dced108fd904d2ed65f25713b517bd131b3bb6df4589d5b32d2886fabe237"
+    },
+    {
+      "path": "samples/gf_2210_pilot.jsonl",
+      "rows": 3,
+      "schema": [
+        "item_key",
+        "image_sha1",
+        "garment_class",
+        "fidelity_score"
+      ],
+      "sha256": "0f4c4f7517930b717620f389df06bae214800118b337f3b21936eb0e5efbbc63"
+    }
+  ],
+  "provenance_note": "adopted from the Lumen Stitch garment collection",
+  "records_total": 60
+}
